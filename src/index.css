@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Grift';
+  src: url('/fonts/Grift-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grift';
+  src: url('/fonts/Grift-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grift Extra Bold';
+  src: url('/fonts/Grift-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --color-bg: #020c0c;
+  --color-primary: #00d4c0;
+  --color-dim: #0a2a28;
+  --color-mid: #006a62;
+  --color-text: #7dfff6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020c0c;
+  color: #7dfff6;
+  font-family: 'Grift', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  overflow: hidden;
+}
+
+/* Custom scrollbar for HUD log */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #030e0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #006a62;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00d4c0;
+}
+
+.font-display {
+  font-family: 'Grift Extra Bold', 'Grift', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-body {
+  font-family: 'Grift', monospace, sans-serif;
+}

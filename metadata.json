@@ -1,0 +1,6 @@
+{
+  "name": "MaestroAI - JARVIS Voice Assistant",
+  "description": "Cross-framework port of MaestroAI JARVIS: real-time voice core, HUD visualizer with concentric glowing rings and particle field, macOS assistant tools, system monitoring, health summary, calendar, and reminders.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
